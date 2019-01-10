@@ -1,9 +1,31 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+
+}
+
+.btn {
+  padding: 0.5em 0.75em;
+  border-radius: 4px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 @media only screen and (min-width: 25em) {
